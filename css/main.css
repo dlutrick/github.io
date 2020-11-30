@@ -74,6 +74,10 @@ p {
   text-align: center;
 }
 
+.home_main > p {
+  margin: 2rem;
+}
+
 .home_page_picture {
   width: 90%;
   border-style: solid;

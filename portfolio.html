@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <title>David Lutrick | Web Developer</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navigation">
+        <div class="nav-top">
+          <a href="./index.html" class="logo">David Lutrick</a>
+          <i class="fas fa-bars" id="hamburger_icon" onclick="toggleMenu()"></i>
+        </div>
+        <div class="nav_links" id="menu">
+          <a href="./index.html" class="nav_link">Home</a>
+          <a href="./about.html" class="nav_link">About</a>
+          <a href="./contact.html" class="nav_link">Contact</a>
+          <a href="./portfolio.html" class="nav_link">Portfolio</a>
+          <!-- <a href="./resume.html" class="nav_link">Resume</a> -->
+        </div>
+      </nav>
+
+      <div class="portfolio_main">
+        <div class="intro_video">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/lNDZl73Gmu4"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="video_card_content">
+          <h1>David Lutrick | Web Developer</h1>
+          <p>
+            Hi, I'm David Lutrick and I'm a web developer located here in Mesa,
+            Arizona. In order to complete my projects, I implement html, css,
+            and react. Some other technologies I'm familiar with are Java,
+            MySQL, and SpringBoot for creating and utilizing APIs.
+          </p>
+          <p>If you'd like to know more, please watch the video above.</p>
+          <button
+            class="contact_button"
+            onclick="window.location.href='./contact.html'"
+          >
+            Contact me
+          </button>
+        </div>
+
+        <div class="projects_container">
+          <h1>Projects</h1>
+          <div class="projects">
+            <div class="project_one">
+              <p>
+                <a href="http://www.wrightautomotive-air.com/" target="_blank"
+                  >WrightAutomotive-Air.com</a
+                >
+              </p>
+              <a href="http://www.wrightautomotive-air.com/" target="_blank">
+                <img
+                  src="./images/wrightautomotive-snapshot.jpg"
+                  alt="A snapshot of wrightautomotive-air.com"
+                  class="project_image"
+                />
+              </a>
+              <p>
+                Wright Automotive & Air is an Arizona based mechanic shop. I
+                created wrightautomotive-air.com with html, css, javascript and
+                bootstrap.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p class="copyright">Copyright &copy David Lutrick 2020</p>
+        <script src="index.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

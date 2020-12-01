@@ -277,7 +277,24 @@ p {
 
   /* Portfolio Content */
   .intro_video {
-    width: 100%;
+    width: 50%;
+    margin-top: 3.5rem;
+  }
+
+  .project_image {
+    width: 90%;
+  }
+
+  .projects_container {
+    text-align: center;
+  }
+
+  .video_card_content {
+    width: 50%;
+  }
+
+  .video_section {
+    display: flex;
   }
 
   @media only screen and (min-width: 1200px) {
@@ -338,6 +355,15 @@ p {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
+    }
+
+    /* Portfolio Content */
+    .project_image {
+      width: 60%;
+    }
+
+    .video_section {
+      margin: 2rem;
     }
   }
 }

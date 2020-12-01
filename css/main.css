@@ -86,16 +86,6 @@ p {
   color: yellow;
 }
 
-/* .technologies_section {
-  background-color: #c5c8c7;
-  margin: 1.6rem;
-  border-radius: 5px;
-  padding: 1rem;
-  padding-bottom: 2rem;
-  border-style: solid;
-  border-color: #0b0c10;
-} */
-
 .technologies > div > h2 {
   color: #1f2833;
 }
@@ -270,6 +260,21 @@ p {
     justify-content: space-around;
   }
 
+  /* About Content */
+  .profile_picture {
+    width: 50%;
+  }
+
+  .about_content {
+    width: 50%;
+    margin: 1rem;
+  }
+
+  .about_main {
+    display: flex;
+    flex-direction: row;
+  }
+
   /* Portfolio Content */
   .intro_video {
     width: 100%;
@@ -317,6 +322,22 @@ p {
       border-radius: 5px;
       border-style: solid;
       border-color: #0b0c10;
+    }
+
+    /* About Content */
+    .profile_picture {
+      width: 40%;
+    }
+
+    .about_content {
+      width: 50%;
+      margin: 1rem;
+    }
+
+    .about_main {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
     }
   }
 }
